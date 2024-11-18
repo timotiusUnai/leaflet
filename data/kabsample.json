@@ -1,0 +1,2599 @@
+{
+    "summary": {
+      "index_1": "C",
+      "index_2": "D",
+      "index_3": "E",
+      "index_4": "C",
+      "index_5": "E",
+      "index_6": "E",
+      "index_7": "C",
+      "index_8": "D",
+      "index_all": 80
+    },
+    "data": [{
+        "WADMKK":"Kabupaten Aceh Barat",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Barat Daya",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Besar",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Jaya",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Selatan",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Singkil",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Tamiang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Tengah",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Tenggara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Timur",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Aceh Utara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Adm. Kep. Seribu",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Agam",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Alor",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Asahan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Asmat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Badung",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Balangan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bandung",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bandung Barat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Banggai",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Banggai Kepulauan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Banggai Laut",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bangka",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bangka Barat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bangka Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bangka Tengah",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bangkalan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bangli",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Banjar",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Banjarnegara",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bantaeng",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bantul",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Banyuasin",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Banyumas",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Banyuwangi",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Barito Kuala",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Barito Selatan",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Barito Timur",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Barito Utara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Barru",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Batang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Batanghari",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Batubara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bekasi",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Belitung",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Belitung Timur",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Belu",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bener Meriah",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bengkalis",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bengkayang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bengkulu Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bengkulu Tengah",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bengkulu Utara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Berau",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Biak Numfor",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bima",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bintan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bireuen",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Blitar",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Blora",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Boalemo",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bogor",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bojonegoro",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bolaang Mongondow",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bolaang Mongondow Timur",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bolaang Mongondow Utara",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bolaangmongondow Selatan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bombana",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bondowoso",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bone",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bone Bolango",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Boven Digoel",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Boyolali",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Brebes",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Buleleng",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bulukumba",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bulungan",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Bungo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Buol",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Buru",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Buru Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Buton",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Buton Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Buton Tengah",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Buton Utara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ciamis",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Cianjur",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Cilacap",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Cirebon",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Dairi",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Deiyai",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Deliserdang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Demak",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Dharmasraya",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Dogiyai",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Dompu",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Donggala",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Empat Lawang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ende",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Enrekang",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Fak Fak",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Flores Timur",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Garut",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Gayo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Gayo Lues",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Gianyar",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Gorontalo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Gorontalo Utara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Gowa",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Gresik",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Grobogan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Gunung Mas",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Gunungkidul",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Halmahera Barat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Halmahera Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Halmahera Tengah",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Halmahera Timur",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Halmahera Utara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Hulu Sungai Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Hulu Sungai Tengah",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Hulu Sungai Utara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Humbang Hasundutan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Indragiri Hilir",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Indragiri Hulu",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Indramayu",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Intan Jaya",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Jayapura",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Jayawijaya",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Jember",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Jembrana",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Jeneponto",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Jepara",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Jombang",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kaimana",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kampar",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kapuas",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kapuas Hulu",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Karanganyar",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Karangasem",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Karawang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Karimun",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Karo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Katingan",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kaur",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kayong Utara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kebumen",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kediri",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Keerom",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kendal",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepahiang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Anambas",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Aru",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Mentawai",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Meranti",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Sangihe",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Selayar",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Siau Tagulandang Biaro",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Sula",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Talaud",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kepulauan Yapen",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kerinci",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ketapang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Klaten",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Klungkung",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kolaka",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kolaka Timur",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kolaka Utara",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Konawe",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Konawe Kepulauan",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Konawe Selatan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Konawe Utara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Adm. Jakarta Barat",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Adm. Jakarta Pusat",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Adm. Jakarta Selatan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Adm. Jakarta Timur",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Adm. Jakarta Utara",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Ambon",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Balikpapan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Banda Aceh",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Bandarlampung",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Bandung",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Banjar",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Banjarmasin",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Banjarbaru",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Batam",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Batu",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Bau Bau",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Bekasi",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Bengkulu",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Bima",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Binjai",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Bitung",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Blitar",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Bogor",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Bontang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Bukittinggi",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Cilegon",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Cimahi",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Cirebon",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Denpasar",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Depok",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Dumai",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Gorontalo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Gunungsitoli",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Jambi",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Jayapura",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Kediri",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Kendari",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Kotamobagu",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Kupang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Langsa",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Lhokseumawe",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Lubuk Linggau",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Madiun",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Magelang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Makassar",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Malang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Manado",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Mataram",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Medan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Metro",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Mojokerto",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Padang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Padang Panjang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Padangsidimpuan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Pagar Alam",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Palangkaraya",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Palembang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Palopo",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Palu",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Pangkalpinang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Pare Pare",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Pariaman",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Pasuruan",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Payakumbuh",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Pekalongan",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Pekanbaru",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Pematangsiantar",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Pontianak",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Prabumulih",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Probolinggo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Sabang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Salatiga",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Samarinda",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Sawahlunto",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Semarang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kota Serang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Serang Bedagai",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Sibolga",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Singkawang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Solok",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Sorong",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Subulussalam",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Sukabumi",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Sungai Penuh",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Surabaya",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Surakarta",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Tangerang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kota Tangerang Selatan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Tanjung Balai",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Tanjungpinang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Tarakan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Tasikmalaya",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Tebing Tinggi",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Tegal",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Ternate",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Tidore Kepulauan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kota Tomohon",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Tual",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kota Yogyakarta",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kotabaru",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kotawaringin Barat",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kotawaringin Timur",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kuantan Singingi",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kubu Raya",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kudus",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kulon Progo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kuningan",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kupang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kutai Barat",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kutai Timur",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Kutaikartanegara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Labuhanbatu",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Labuhanbatu Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Labuhanbatu Utara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lahat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lamandau",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lamongan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lampung Barat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lampung Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lampung Tengah",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lampung Timur",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lampung Utara",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Landak",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Langkat",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lanny Jaya",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lebak",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lebong",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lembata",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lima Puluh Koto",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lingga",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lombok Barat",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lombok Tengah",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lombok Timur",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lombok Utara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Lumajang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Luwu",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Luwu Timur",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Luwu Utara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Madiun",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Magelang",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Magetan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mahakam Ulu",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Majalengka",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Majene",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Malaka",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Malang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Malinau",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Maluku Barat Daya",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Maluku Tengah",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Maluku Tenggara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Maluku Tenggara Barat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mamasa",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mamberamo Raya",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mamberamo Tengah",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mamuju",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mamuju Tengah",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mamuju Utara",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mandailing Natal",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Manggarai",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Manggarai Barat",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Manggarai Timur",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Manokwari",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Manokwari Selatan",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mappi",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Maros",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Maybrat",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Melawi",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mempawah",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Merangin",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Merauke",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mesuji",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mimika",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Minahasa",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Minahasa Selatan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Minahasa Tenggara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Minahasa Utara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Mojokerto",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Morowali",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Morowali Utara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Muara Enim",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Muaro Jambi",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Muko-Muko",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Muna",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Muna Barat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Murung Raya",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Musi Banyuasin",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Musi Rawas",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Musi Rawas Utara",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Nabire",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Naganraya",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Nagekeo",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Natuna",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Nduga",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ngada",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Nganjuk",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ngawi",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Nias",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Nias Barat",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Nias Selatan",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Nias Utara",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Nunukan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ogan Ilir",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ogan Komering Ilir",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ogan Komering Ulu",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ogan Komering Ulu Selatan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ogan Komering Ulu Timur",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pacitan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Padang Lawas",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Padang Lawas Utara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Padang Pariaman",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Pahuwato",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pakpak Bharat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pamekasan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pandeglang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pangandaran",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pangkajene Kepulauan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Paniai",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Parigi Moutong",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pasaman",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pasaman Barat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Paser",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pasuruan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pati",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pegunungan Arfak",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pegunungan Bintang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pekalongan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pelalawan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pemalang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Penajam Paser Utara",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Penukal Abab Lematang Ilir",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pesawaran",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pesisir Barat",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pesisir Selatan",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pidie",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pidie Jaya",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pinrang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Polewali Mandar",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Ponorogo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Poso",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pringsewu",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Probolinggo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pulangpisau",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pulau Morotai",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Pulau Taliabu",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Puncak",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Puncak Jaya",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Purbalingga",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Purwakarta",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Purworejo",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Raja Ampat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Rejang Lebong",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Rembang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Rokan Hilir",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Rokan Hulu",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Rote Ndao",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sabu Raijua",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sambas",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Samosir",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sampang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sanggau",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sarmi",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sarolangun",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sekadau",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Seluma",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Semarang",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Seram Bagian Barat",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Seram Bagian Timur",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Serang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Serdang Bedagai",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Seruyan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Siak",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sidenreng Rappang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sidoarjo",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sigi",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sijunjung",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sikka",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Simalungun",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Simeulue",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sinjai",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sintang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Situbondo",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sleman",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Solok",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Solok Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Soppeng",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sorong",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sorong Selatan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sragen",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Subang",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sukabumi",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sukamara",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sukoharjo",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sumba Barat",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sumba Barat Daya",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sumba Tengah",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sumba Timur",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sumbawa",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sumbawa Barat",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sumedang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Sumenep",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Supiori",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tabalong",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tabanan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Takalar",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tambrauw",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tana Tidung",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tana Toraja",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tanah Datar",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tanah Laut",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tanahbumbu",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tangerang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Tanngerang",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tanggamus",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tanjung Jabung Barat",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tanjung Jabung Timur",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tapanuli Selatan",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tapanuli Tengah",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tapanuli Utara",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tapin",
+        "value": "60",
+        "Ketahanan": "90 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tasikmalaya",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tebo",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tegal",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Teluk Bintuni",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Teluk Wondama",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Temanggung",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Timor Tengah Selatan",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Timor Tengah Utara",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Toba Samosir",
+        "value": "75",
+        "Ketahanan": "120 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tojo Una Una",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Toli Toli",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tolikara",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Toraja Utara",
+        "value": "28",
+        "Ketahanan": "30 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Trenggalek",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tuban",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tulang Bawang Barat",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tulangbawang",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Tulungagung",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Wajo",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Wakatobi",  
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Waropen",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Way Kanan",
+        "value": "48",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Wonogiri",
+        "value": "60",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Wonosobo",
+        "value": "60",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Yahukimo",
+        "value": "60",
+        "Ketahanan": "60 hari"
+      },
+      {
+        "WADMKK":"Kabupaten Yalimo",
+        "value": "60",
+        "Ketahanan": "60 hari"
+      }
+    ]
+  }

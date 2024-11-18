@@ -1,0 +1,184 @@
+{
+  "summary": {
+    "index_1": "C",
+    "index_2": "D",
+    "index_3": "E",
+    "index_4": "C",
+    "index_5": "E",
+    "index_6": "E",
+    "index_7": "C",
+    "index_8": "D",
+    "index_all": 80
+  },
+  "data": [{
+      "ID_PROV":0,
+      "value": "28",
+      "Ketahanan": "30 hari"
+    },
+    {
+      "ID_PROV":20,
+      "value": "28",
+      "Ketahanan": "30 hari"
+    },
+    {
+      "ID_PROV":11,
+      "value": "28",
+      "Ketahanan": "30 hari"
+    },
+    {
+      "ID_PROV":22,
+      "value": "28",
+      "Ketahanan": "30 hari"
+    },
+    {
+      "ID_PROV":6,
+      "value": "28",
+      "Ketahanan": "30 hari"
+    },
+    {
+      "ID_PROV":10,
+      "value": "48",
+      "Ketahanan": "60 hari"
+    },
+    {
+      "ID_PROV":14,
+      "value": "48",
+      "Ketahanan": "60 hari"
+    },
+    {
+      "ID_PROV":1,
+      "value": "48",
+      "Ketahanan": "60 hari"
+    },
+    {
+      "ID_PROV":15,
+      "value": "48",
+      "Ketahanan": "60 hari"
+    },
+    {
+      "ID_PROV":24,
+      "value": "48",
+      "Ketahanan": "60 hari"
+    },
+    {
+      "ID_PROV":29,
+      "value": "48",
+      "Ketahanan": "60 hari"
+    },
+    {
+      "ID_PROV":8,
+      "value": "48",
+      "Ketahanan": "60 hari"
+    },
+    {
+      "ID_PROV":3,
+      "value": "48",
+      "Ketahanan": "60 hari"
+    },
+    {
+      "ID_PROV":13,
+      "value": "48",
+      "Ketahanan": "60 hari"
+    },
+    {
+      "ID_PROV":2,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":12,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":4,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":5,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":19,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":27,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":7,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":25,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":18,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":30,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":9,
+      "value": "60",
+      "Ketahanan": "90 hari"
+    },
+    {
+      "ID_PROV":21,
+      "value": "75",
+      "Ketahanan": "120 hari"
+    },
+    {
+      "ID_PROV":16,
+      "value": "75",
+      "Ketahanan": "120 hari"
+    },
+    {
+      "ID_PROV":33,
+      "value": "75",
+      "Ketahanan": "120 hari"
+    },
+    {
+      "ID_PROV":17,
+      "value": "75",
+      "Ketahanan": "120 hari"
+    },
+    {
+      "ID_PROV":32,
+      "value": "75",
+      "Ketahanan": "120 hari"
+    },
+    {
+      "ID_PROV":31,
+      "value": "75",
+      "Ketahanan": "120 hari"
+    },
+    {
+      "ID_PROV":23,
+      "value": "75",
+      "Ketahanan": "120 hari"
+    },
+    {
+      "ID_PROV":26,
+      "value": "75",
+      "Ketahanan": "120 hari"
+    },
+    {
+      "ID_PROV":28,
+      "value": "75",
+      "Ketahanan": "120 hari"
+    }
+  ]
+}

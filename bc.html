@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #overlay{
+            position: absolute;
+            z-index: 1000;
+            top:0;
+            padding: 8px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        #buttonProvinsi{
+            position:static;
+            z-index: 1000;
+            border-radius: 10px;
+            background-color: white;
+            font-size: 20px;
+            margin:5px;
+            padding: 10px
+        }
+        #buttonKota{
+            position: static;
+            color: white;
+            z-index: 1000;
+            border-radius: 10px;
+            background-color: #203420;
+            font-size: 20px;
+            margin: 5px;
+            padding: 10px;
+        }
+        #button{
+            display: flex;
+            justify-content: center;
+        }
+        #contentcenter{
+            display: flex;
+            justify-content: center;
+            bottom: 0;
+            z-index: 1000;
+        }
+    </style>
+</head>
+ <body>
+    <div id="overlay" style="text-align: center;width:100%">
+        <p style="margin: 5px">Peta Ketahanan Pangan Indonesia</p>
+        <p style="margin: 5px;font-size:12px">Update Terakhir <br>15 Juni 2023</p>
+        <div id="button">
+            <button id="buttonProvinsi" onclick="switchLayer2(kecamatan, kabkota)">Provinsi</button>
+            <button id="buttonKota" onclick="switchLayer(kecamatan, kabkota)">Kab/Kota</button>
+        </div>
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light" style="z-index:1000;padding:0;height:67px;width:100%; position:absolute;bottom:0;">
+        <div class="container-fluid" style="background-color: #E3DDD1;height:67px;">
+            <a class="navbar-brand" href="#">
+                <img src="logoMockup.png" alt="" width="207px" height="60px" class="d-inline-block align-text-top">
+              </a>
+        </div>
+    </nav>
+
+    <div id="map"></div>
+</body>
+</html>
+<!-- js -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<!-- <script src="./data/indodata.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-omnivore/0.3.4/leaflet-omnivore.min.js" integrity="sha512-55AYz+N6WyuiC8bRpQftNyCcSBCl3AEutoTsb4EeZuFVFP1+G4gll30iczAvvTpdL9nz48F7ZFEUavRUXp3FNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script>
+    //map initialization
+    var map = L.map('map').setView([-2.81, 122.57], 5);
+
+    //osm
+    var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    //osm.addTo(map)
+    //map.removeLayer(kecamatan)
+    //water color
+    var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: 'abcd',
+        minZoom: 1,
+        maxZoom: 16,
+        ext: 'jpg',
+    });
+    //watercolor.addTo(map)
+    //dark
+    var dark = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}{r}.{ext}', {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: 'abcd',
+        minZoom: 0,
+        maxZoom: 20,
+        ext: 'png'
+    });
+
+    //marker
+    /*var singleMarker = L.marker([-2.81, 122.57]);
+    var popup = singleMarker.bindPopup('Indonesia').openPopup()
+    popup.addTo(map)
+
+    console.log(singleMarker.toGeoJSON()) 
+
+    var secondMarker = L.marker([-2.81, 102.57]);
+    var popup = secondMarker.bindPopup('Indonesia').openPopup()
+    popup.addTo(map)
+
+    console.log(secondMarker.toGeoJSON())*/
+
+    //var indodata = L.geoJSON(indodataa);
+
+    //layer_controller
+    /*var baseMaps = {
+        "Provinsi": osm,
+        "Kota": dark
+    };
+    
+    var overlayMaps = {
+        "Prov": singleMarker,
+        "Kab./Kota": secondMarker
+    };*/
+
+    //L.control.layers(baseMaps, overlayMaps).addTo(map);
+    //L.control.layers(baseMaps, overlayMaps, {collapsed:True}).addTo(map);
+
+    //events
+    //map.on('mouseover', function (){
+    //  console.log('your mouse is over the map')
+    //})
+
+    /*map.on('mousemove', function(e){
+        console.log(e)
+    })*/
+
+    kecamatan = L.geoJson(null, {style: style});
+    omnivore.geojson('data/ina_prov.json', null, kecamatan).on('ready', function() {
+        getMap()
+    }).setZIndex(-999).bringToBack().addTo(map);
+
+    kabkota = L.geoJson(null, {style: style});
+    omnivore.geojson('data/kabkota.json', null, kabkota).on('ready', function() {
+        getMap()
+    }).setZIndex(-999).bringToBack();
+
+    //warna
+    function style(feature) {
+        return {
+            weight: 0.5,
+            // opacity: 0.75,
+            fillColor: '#545454',
+            color: '#000',
+            fillOpacity: 0.2,
+            opacity: 0.9
+        };
+    }
+
+    //switch
+    //kabkota
+    function switchLayer(layer, layer2) {
+      map.removeLayer(layer)
+      map.addLayer(layer2)
+    }
+
+    //provinsi
+    function switchLayer2(layer, layer2) {
+        map.removeLayer(layer2)
+        map.addLayer(layer)
+      }
+</script>

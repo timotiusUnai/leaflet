@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIPANTARA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <style>
+        .leaflet-popup-content-wrapper{
+            border-radius: 0;
+            background: black;
+            color: white;
+          }
+          .leaflet-popup-content{
+            margin:5px 5px 5px 5px;
+            text-align: center;
+          }
+          .leaflet-popup-tip{
+            background: black;
+          }
+          .leaflet-popup-close-button{
+            display: none;
+          }
+          .leaflet-control-container{
+            display: none;
+          }
+    </style>
+</head>
+ <body>
+    <div id="overlay">
+        <p class="title">Peta Ketahanan Pangan Indonesia</p>
+        <p style="margin: 5px;font-size:12px">Update Terakhir <br>15 Juni 2023</p>
+    </div>
+    <div id="button">
+        <button id="buttonProvinsi" onclick="switchLayer2(kecamatan, kabkota)" style="color: black;">Provinsi</button>
+        <button id="buttonKota" onclick="switchLayer(kecamatan, kabkota)">Kab/Kota</button>
+    </div>
+
+    <img src="LogoMockup.png" alt="Sipantara">
+
+    <div class="dropdown">
+        <div class="select">
+            <span class="selected">27 Juni 2023</span>
+            <div class="caret"></div>
+        </div>
+        <ul class="menu">
+            <li>20 Juni 2023</li>
+            <li>13 Juni 2023</li>
+            <li>6 Juni 2023</li>
+            <li>30 Mei 2023</li>
+            <li>23 Mei 2023</li>
+        </ul>
+    </div>
+    
+    <div id="overlay2">
+        <div class="wrapper-grid">
+            <div class="container">
+            <h1 class="name1">Sangat Aman</h1>
+            <p class="description"><p style="font-family: 'Inter', sans-serif !important">9</p><p style="font-family: 'Inter', sans-serif !important">Provinsi</p>
+            </div>
+        
+            <div class="container2">
+            <h1 class="name2">Aman</h1>
+            <p class="description"><p style="font-family: 'Inter', sans-serif !important">11</p><p style="font-family: 'Inter', sans-serif !important">Provinsi</p>
+            </div>
+        
+            <div class="container3">
+            <h1 class="name3">Rentan</h1>
+            <p class="description"><p style="font-family: 'Inter', sans-serif !important">9</p><p style="font-family: 'Inter', sans-serif !important">Provinsi</p>
+            </div>
+        
+            <div class="container4">
+            <h1 class="name4">Sangat Rentan</h1>
+            <p class="description"><p style="font-family: 'Inter', sans-serif !important">5</p><p style="font-family: 'Inter', sans-serif !important">Provinsi</p>
+            </div>
+        </div>
+    </div>
+
+      <div id="content-container">
+        <div class="tooltip"><i class="fa-solid fa-user-group"></i>
+          <span class="tooltiptext">Jumlah Penduduk :<br>281,864,078</span>
+        </div>  
+      </div>
+  
+      <div id="content-container1">
+        <div class="tooltip"><i class="fa-solid fa-wheat-awn-circle-exclamation"></i>
+          <span class="tooltiptext">Malnutrisi Akut:<br>10,2% anak</span>
+        </div>  
+      </div>
+
+      <div id="content-container2">
+        <div class="tooltip1"><i class="fa-solid fa-pepper-hot"></i>
+          <span class="tooltiptext1">Prevalensi Kurang Gizi /PoU :<br>8,34%</span>
+        </div>  
+      </div>
+
+      <div id="content-container3">
+        <div class="tooltip"><i class="fa-solid fa-wheat-awn"></i>
+          <span class="tooltiptext">Konsumsi Beras :<br>30,2 Juta ton</span>
+        </div>  
+      </div>
+
+      <div id="content-container4">
+        <div class="tooltip"><i class="fa-solid fa-arrows-spin"></i>
+          <span class="tooltiptext">Produks Beras :<br>32 Juta ton</span>
+        </div>  
+      </div>
+
+    <div id="page" class="site">
+        <div class="container1">
+            <nav>
+                <ul>
+                    <li class="active"><a href="#" id="ketahanan"><span>Ketahanan</span><i class="ri-ancient-gate-line"></i></a></li>
+                    <li><a href="#" id="keamanan"><span>Keamanan</span><i class="ri-shield-line"></i></a></li>
+                    <li><a href="#" id="keteraksesan"><span>Keteraksesan</span><i class="ri-route-line"></i></a></li>
+                    <li><a href="#" id="kedaulatan"><span>Kedaulatan</span><i class="ri-team-line"></i></a></li>
+                    <li><a href="#" id="kemandirian"><span>Kemandirian</span><i class="ri-open-arm-line"></i></a></li>
+                    <li><a href="#" id="keberlanjutan"><span>Keberlanjutan</span><i class="ri-line-chart-line"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <label>
+        <input type="checkbox">
+        <div class="toggle">
+          <span class="top_line common"></span>
+          <span class="middle_line common"></span>
+          <span class="bottom_line common"></span>
+        </div>
+  
+        <div class="slide">
+          <h2>SIPANTARA</h2>
+          <hr>
+          <div class="info">
+            Informasi Beras Nasional
+          </div>
+          <div>
+            <div class="kualitas">
+              Kualitas Bawah 1
+            </div>
+            <div class="harga">
+              <p style="margin:0; padding-bottom:2px">Rp 11.000/kg <i class="arrow down"></i></p>
+            </div>
+  
+            <div class="kualitas" style="margin-top: 10px;">
+              Kualitas Bawah 2
+            </div>
+            <div class="harga">
+              <p style="margin:0; padding-bottom:2px">Rp 11.450/kg <i class="arrow down"></i></p>
+            </div>
+  
+            <div class="kualitas" style="margin-top: 10px;">
+              Kualitas Medium 1
+            </div>
+            <div class="harga">
+              <p style="margin:0; padding-bottom:2px">Rp 12.550/kg <i class="arrow down"></i></p>
+            </div>
+  
+            <div class="kualitas" style="margin-top: 10px;">
+              Kualitas Medium 2
+            </div>
+            <div class="harga">
+              <p style="margin:0; padding-bottom:2px">Rp 11.650/kg <i class="arrow down"></i></p>
+            </div>
+  
+            <div class="kualitas" style="margin-top: 10px;">
+              Kualitas Super 1
+            </div>
+            <div class="harga">
+              <p style="margin:0; padding-bottom:2px">Rp 13.000/kg <i class="arrow down"></i></p>
+            </div>
+  
+            <div class="kualitas" style="margin-top: 10px;">
+              Kualitas Super 2
+            </div>
+            <div class="harga">
+              <p style="margin:0; padding-bottom:2px">Rp 12.250/kg <i class="arrow down"></i></p>
+            </div>
+          </div>
+          <br>
+          <hr>
+          <div class="info">
+            Ketahanan Beras Nasional
+          </div>
+          <div class="kualitas">
+            Harga Rata-rata Nasional
+          </div>
+          <div class="harga">
+            <p style="margin:0; padding-bottom:2px">Rp 13.444/kg</p>
+          </div>
+  
+          <div class="kualitas" style="margin-top: 10px;">
+            Stok Total Nasional
+          </div>
+          <div class="harga">
+            <p style="margin:0; padding-bottom:2px">3.233.179 ton</p>
+          </div>
+  
+          <div class="kualitas" style="margin-top: 10px;">
+            Ketahanan Nasional
+          </div>
+          <div class="harga">
+            <p style="margin:0; padding-bottom:2px">39 Hari</p>
+          </div>
+        </div>
+      </label>
+
+
+      <!-- popup2 -->
+      <div class="popup-container">
+        <!-- <h3 id="provinsi">Kalimantan Timur</h3> -->
+  
+        <div class="popup-content">
+          <div class="chart-container">
+            <canvas id="myChart"></canvas>
+          </div>
+          <div class="popup-details">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+  
+        <div class="close-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="#f40076"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
+      </div>
+      
+    <div id="map"></div>
+</body>
+</html>
+<!-- js -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-omnivore/0.3.4/leaflet-omnivore.min.js" integrity="sha512-55AYz+N6WyuiC8bRpQftNyCcSBCl3AEutoTsb4EeZuFVFP1+G4gll30iczAvvTpdL9nz48F7ZFEUavRUXp3FNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script>
+    //map initialization
+    var map = L.map('map').setView([-0.747, 115.115], 5);
+
+    //osm
+    var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    });
+
+    osm.addTo(map)
+    //map.removeLayer(kecamatan)
+    //water color
+    var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: 'abcd',
+        minZoom: 1,
+        maxZoom: 16,
+        ext: 'jpg',
+    });
+    //watercolor.addTo(map)
+    //dark
+    var dark = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}{r}.{ext}', {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: 'abcd',
+        minZoom: 0,
+        maxZoom: 20,
+        ext: 'png'
+    });
+
+    var Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+        maxZoom: 20,
+        attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    });
+
+    var OpenStreetMap_BZH = L.tileLayer('https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles courtesy of <a href="http://www.openstreetmap.bzh/" target="_blank">Breton OpenStreetMap Team</a>',
+    }).addTo(map);
+
+    kecamatan = L.geoJson(null, {style: style});
+    omnivore.geojson('data/ina_prov.json', null, kecamatan).on('ready', function() {
+        getMap()
+    }).setZIndex(-999).bringToBack().addTo(map);
+
+    kabkota = L.geoJson(null, {style: style});
+    omnivore.geojson('data/kabkota.json', null, kabkota).on('ready', function() {
+        getMap()
+    }).setZIndex(-999).bringToBack();
+
+    /*
+    provinsi = L.geoJson(null, {style: style});
+    omnivore.geojson('data/ina_prov.json', null, provinsi).on('ready', function() {
+        getMap()
+    }).setZIndex(-999).bringToBack();
+    */
+
+    //warna
+    function style(feature) {
+        return {
+            weight: 0.5,
+            // opacity: 0.75,
+            fillColor: '#545454',
+            color: '#000',
+            fillOpacity: 0.2,
+            opacity: 0.9
+        };
+    }
+
+    //switch
+    //kabkota
+    function switchLayer(layer, layer2) {
+      map.removeLayer(layer)
+      map.addLayer(layer2)
+      getMap2()
+    }
+
+    //provinsi
+    function switchLayer2(layer, layer2) {
+        map.removeLayer(layer2)
+        map.addLayer(layer)
+      }
+
+      const dropdowns = document.querySelectorAll('.dropdown');
+      
+      dropdowns.forEach(dropdown => {
+        const select = dropdown.querySelector('.select');
+        const caret = dropdown.querySelector('.caret');
+        const menu = dropdown.querySelector('.menu');
+        const options = dropdown.querySelectorAll('.menu li');
+        const selected = dropdown.querySelector('.selected');
+    
+      select.addEventListener('click', () =>{
+        select.classList.toggle('select-clicked');
+        caret.classList.toggle('caret-rotate');
+        menu.classList.toggle('menu-open');
+      });
+      options.forEach(option => {
+        option.addEventListener('click', () => {
+          selected.innerText = option.innerText;
+          select.classList.remove('select-clicked');
+          caret.classList.remove('caret-rotate');
+          menu.classList.remove('menu-open');
+    
+          option.forEach(option => {
+            option.classList.remove('active');
+          });
+          option.classList.add('active')
+        });
+      });
+    });
+</script>
+
+<!-- popup2  (TASK)-->
+<script>
+  const popupContainer = document.querySelector(".popup-container");
+  const statsBtn = document.querySelector(".stats-btn");
+  const closeBtn = document.querySelector(".popup-container .close-btn");
+
+  //statsBtn.addEventListener("click", () => {
+  //  popupContainer.classList.add("active");
+  //});
+
+  closeBtn.addEventListener("click", () => {
+    popupContainer.classList.remove("active");
+  });
+</script>
+
+<script>
+      const ctx = document.getElementById("myChart").getContext("2d");
+      const myChart = new Chart(ctx, {
+        type: "doughnut",
+        data: {
+          labels: ["Cabai (ton)", "Bawang Merah (ton)", "Bawang Putih (ton)", "Kunyit (ton)", "Tomat (ton)"],
+          datasets: [
+            {
+              label: "# of Votes",
+              data: [20, 15, 13, 5, 2],
+              backgroundColor: [
+                "#2F4793",
+                "#97181E",
+                "#F74310",
+                "#FED533",
+                "#9AD32E",
+              ],
+
+              borderWidth: 0,
+            },
+          ],
+        },
+      });
+</script>
